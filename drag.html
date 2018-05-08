@@ -1,0 +1,48 @@
+<html>
+<head>
+<title> Drag </title>
+<link rel="stylesheet" type="text/css" href="drag.css">
+<script type="text/javascript" src="jquery-3.1.1.js"></script>
+</head>
+<body>
+
+
+<section class="all_body">
+
+	<section class="sec1">
+		<h1>To Do</h1>
+      <input type="text" id="inp1"><button id="b1"> + </button>
+      <ul id="sec1_appen" ondragover="onDragOver(event)" ondrop="onDrop(event)"> 
+      	<li id="l1" draggable="true" ondragstart="onDragStart(event)">lorem</li>
+        
+
+      </ul>
+	</section>
+
+	<section class="sec2">
+		<h1>in progress </h1>
+		<input type="text" id="inp2"><button id="b2"> + </button>
+		<ul id="sec2_appen" ondragover="onDragOver(event)" ondrop="onDrop(event)">
+			<li id="l2" draggable="true" ondragstart="onDragStart(event)">lorem</li>
+
+		</ul>
+	</section>
+
+	<section class="sec3">
+		<h1> Done </h1>
+		<input type="text" id="inp3"><button id="b3"> + </button>
+		<ul id="sec3_appen" ondragover="onDragOver(event)" ondrop="onDrop(event)">
+			<li id="l3" draggable="true" ondragstart="onDragStart(event)">lorem </li>
+		</ul>
+	</section>
+
+
+
+</section>
+
+
+
+<script type="text/javascript" src="drag.js"></script>
+</body>
+
+</html>

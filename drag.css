@@ -1,0 +1,60 @@
+body
+{
+	margin: 0;
+    
+	
+
+}
+.all_body{
+	width: calc(100vw - 17px);
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 100px;
+	background-image: url("7X3An.png");
+    background-size: cover;
+    background-attachment: fixed;
+	
+	
+}
+section{
+	background-color: rgba(0, 0, 255 ,.2);
+	width: 25%;
+	height: 70%;
+);
+}
+h1{
+	background-color: #FCE4EC;
+	padding: 10px;
+	text-align: center;
+	margin: 0px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	height: 300px;
+}
+li{
+	margin: 5px;
+	padding: 5px;
+}
+#sec1_appen li{
+	background-color: yellow;
+}
+#sec2_appen li{
+	background-color: red;
+}
+#sec3_appen li{
+	background-color: blue;
+}
+input{
+	width: 90%;
+	border: none;
+	height: 30px;
+}
+button{
+	margin: 5px;
+	padding: 5px;
+	color: blue;
+}
